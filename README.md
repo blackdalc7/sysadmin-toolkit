@@ -1,5 +1,7 @@
 # sysadmin-toolkit
 
+[![CI](https://github.com/blackdalc7/sysadmin-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/blackdalc7/sysadmin-toolkit/actions/workflows/ci.yml)
+
 A handful of small Bash scripts for everyday Linux housekeeping: check disk
 usage, watch an auth log for brute-force attempts, make pruning backups, and
 print a quick health summary. The shared logic lives in one sourceable library
