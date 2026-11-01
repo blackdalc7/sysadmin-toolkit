@@ -1,0 +1,12 @@
+Nov  1 06:01:11 web01 sshd[1010]: Failed password for root from 203.0.113.9 port 51110 ssh2
+Nov  1 06:01:13 web01 sshd[1011]: Failed password for root from 203.0.113.9 port 51111 ssh2
+Nov  1 06:01:15 web01 sshd[1012]: Failed password for invalid user admin from 203.0.113.9 port 51112 ssh2
+Nov  1 06:02:01 web01 sshd[1020]: Accepted password for alice from 192.0.2.10 port 40001 ssh2
+Nov  1 06:02:22 web01 sshd[1030]: Failed password for invalid user test from 198.51.100.7 port 42001 ssh2
+Nov  1 06:02:24 web01 sshd[1031]: Failed password for invalid user test from 198.51.100.7 port 42002 ssh2
+Nov  1 06:02:26 web01 sshd[1032]: Failed password for invalid user oracle from 198.51.100.7 port 42003 ssh2
+Nov  1 06:03:00 web01 sshd[1040]: Failed password for root from 203.0.113.9 port 51120 ssh2
+Nov  1 06:03:05 web01 sshd[1041]: Failed password for root from 203.0.113.9 port 51121 ssh2
+Nov  1 06:03:09 web01 sshd[1042]: Failed password for root from 203.0.113.9 port 51122 ssh2
+Nov  1 06:04:00 web01 sudo:   alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/bin/ls
+Nov  1 06:05:00 web01 sshd[1050]: Failed password for bob from 192.0.2.5 port 33001 ssh2

@@ -1,0 +1,23 @@
+# CI for sysadmin-toolkit. Runs when this folder is pushed as its own repository.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  lint-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install shellcheck
+        run: sudo apt-get update && sudo apt-get install -y shellcheck
+      - name: ShellCheck
+        run: shellcheck --severity=warning -x bin/*.sh lib/*.sh tests/*.sh
+      - name: Unit tests
+        run: bash tests/run-tests.sh
